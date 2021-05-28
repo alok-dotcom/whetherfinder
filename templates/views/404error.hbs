@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-6 main_header_left">
+                        <p>A_coder welcomes you!!</p>
+                        <h1>{{ errormsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                    <!-- right side div -->
+                    <div class="col-md-6 main_header_right">
+                        
+                     <figure>
+                         <img src="image/404.jpg" alt="alok" class="img-fluid" title="acoder">
+                     </figure>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    {{>footer}}
+</body>
+</html>
